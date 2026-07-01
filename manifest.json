@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "uuid": "c5e8eda3-849e-4c9e-bb68-9e77d4ae454f",
+    "name": "Aegis Economy BP",
+    "min_engine_version": [1, 21, 20]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "8087ff9f-219f-4e33-8dc1-32af31146635",
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    }
+  ]
+}
